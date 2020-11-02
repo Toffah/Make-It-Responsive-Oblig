@@ -4,14 +4,12 @@
 }
 
 .parent h1{
-    position: relative;
     top: 40px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .parent div{
-    position: relative;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -27,4 +25,16 @@
 .child-one li{
     padding: 10px;
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .parent{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .parent div{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }

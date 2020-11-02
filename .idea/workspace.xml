@@ -27,19 +27,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,11 +35,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603440618316</updated>
-      <workItem from="1603440620529" duration="1226000" />
+      <workItem from="1603440620529" duration="2579000" />
+      <workItem from="1603615477455" duration="398000" />
+      <workItem from="1604314723073" duration="7325000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="60" width="585" height="801" key="find.popup" timestamp="1604319826231">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="561" y="60" width="585" height="801" key="find.popup/0.0.1707.920/2560.0.1280.720/-1920.0.1280.720@0.0.1707.920" timestamp="1604319826231" />
   </component>
 </project>

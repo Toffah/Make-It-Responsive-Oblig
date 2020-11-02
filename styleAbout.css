@@ -1,17 +1,16 @@
 .parent{
     height: 650px;
     font-size: 20px;
+
 }
 
 .parent h1{
-    position: relative;
     top: 40px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .parent div{
-    position: relative;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -22,7 +21,7 @@
 
 .child-two{
     top: 70px;
-}
+    }
 
 .child-three{
     top: 90px;
@@ -47,7 +46,7 @@
 }
 
 .parent-two{
-    position: relative;
+
     margin-left: 16%;
     margin-right: 16%;
     margin-top: 50px;
@@ -55,18 +54,17 @@
     background-color: aliceblue;
     border: none;
     border-radius: 50px;
-    height: 1000px;
+
 }
 
 .child-five{
-    position: relative;
+
     top: 40px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .child-six{
-    position: relative;
     top: 70px;
     margin-left: 50px;
     margin-right: 50px;
@@ -78,15 +76,27 @@
 }
 
 .child-six div{
-    display: flex;
+
 }
 
 .child-six ul{
-    position: relative;
+
     margin-top: 4%;
     list-style: circle;
     letter-spacing: 1px;
     font-size: 20px;
     font-style: oblique;
+}
+
+@media (max-width: 600px) {
+    .parent{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .parent div{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }
 

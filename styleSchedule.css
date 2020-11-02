@@ -1,17 +1,14 @@
 .parent{
-    height: 550px;
     font-size: 20px;
 }
 
 .parent h1{
-    position: relative;
     top: 40px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .parent div{
-    position: relative;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -43,4 +40,16 @@
 
 .child-four{
     top: 110px;
+}
+
+@media (max-width: 600px) {
+    .parent{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .parent div{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }
